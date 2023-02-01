@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  //border: solid;
+}
+
+#results {
+  //border: solid;
+  height: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-items: flex-start;
+  padding-left: 5em;
+  padding-right: 5em;
+  font-size: 2em;
+}
+
+#question {
+  //border: solid;
+  height: 5vh;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+
+  input {
+    font-size: 30px;
+    width: 2em;
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+}
+
+#btnDiv {
+  //border: solid;
+  display: flex;
+  justify-content: center;
+
+  button {
+    margin-top: 2em;
+    height: 3em;
+    font-weight: bold;
+  }
+}

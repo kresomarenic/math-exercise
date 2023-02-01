@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#results {
+  height: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-items: flex-start;
+  padding-left: 5em;
+  padding-right: 5em;
+  font-size: 2em;
+}
+
+#question {
+  height: 5vh;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+#question input {
+  font-size: 30px;
+  width: 2em;
+  text-align: center;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+#question input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#btnDiv {
+  display: flex;
+  justify-content: center;
+}
+#btnDiv button {
+  margin-top: 2em;
+  height: 3em;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
